@@ -1,0 +1,16 @@
+/* chatbot.css */
+.chatbot-container {
+  @apply fixed bottom-4 right-4 bg-white shadow-lg rounded-2xl p-4 w-80;
+}
+
+.chat-header {
+  @apply text-lg font-semibold mb-2;
+}
+
+.chat-messages {
+  @apply h-64 overflow-y-auto mb-2;
+}
+
+.chat-input {
+  @apply w-full p-2 border rounded-lg focus:outline-none;
+}

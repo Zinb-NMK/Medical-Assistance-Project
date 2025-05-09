@@ -1,0 +1,12 @@
+/* resultdisplay.css */
+.result-container {
+  @apply bg-white p-6 rounded-2xl shadow-lg mt-4;
+}
+
+.result-title {
+  @apply text-xl font-bold mb-2;
+}
+
+.result-content {
+  @apply text-gray-700 leading-relaxed;
+}
